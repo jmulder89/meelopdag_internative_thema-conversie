@@ -1,12 +1,33 @@
-/*!
- * Start Bootstrap - Clean Blog v4.0.0-alpha (http://startbootstrap.com/template-overviews/clean-blog)
- * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE)
- */
+/*
+Theme Name: Jeroen_thema
+Theme URI: TBA
+Author: Jeroen
+Author URI: N/A
+Description: test
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: twentythirteen
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+ .navbar-toggler {
+        z-index: 1;
+    }
+    
+    @media (max-width: 576px) {
+        nav > .container {
+            width: 100%;
+        }
+    }
+
 body {
   font-size: 20px;
   color: #333333;
-  font-family: 'Lora', 'Times New Roman', serif; }
+  font-family: 'Lora', 'Times New Roman', serif; 
+}
 
 p {
   line-height: 1.5;
@@ -88,7 +109,7 @@ body {
     padding: 13px;
     text-transform: uppercase;
     color: #777777; }
-  #mainNav .navbar-nav > li.nav-item > a {
+  #mainNav .navbar-nav > li.menu-item > a {
     font-size: 12px;
     font-weight: 800;
     letter-spacing: 1px;
@@ -102,10 +123,10 @@ body {
         color: white; }
         #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
           color: rgba(255, 255, 255, 0.8); }
-      #mainNav .navbar-nav > li.nav-item > a {
+      #mainNav .navbar-nav > li.menu-item > a {
         padding: 15px 20px;
         color: white; }
-        #mainNav .navbar-nav > li.nav-item > a:hover, #mainNav .navbar-nav > li.nav-item > a:focus {
+        #mainNav .navbar-nav > li.menu-item > a:hover, #mainNav .navbar-nav > li.menu-item > a:focus {
           color: rgba(255, 255, 255, 0.8); } }
   @media only screen and (min-width: 1170px) {
     #mainNav {
@@ -132,9 +153,9 @@ body {
           color: #333333; }
           #mainNav.is-fixed .navbar-brand:hover, #mainNav.is-fixed .navbar-brand:focus {
             color: #0085A1; }
-        #mainNav.is-fixed .navbar-nav > li.nav-item > a {
+        #mainNav.is-fixed .navbar-nav > li.menu-item > a {
           color: #333333; }
-          #mainNav.is-fixed .navbar-nav > li.nav-item > a:hover, #mainNav.is-fixed .navbar-nav > li.nav-item > a:focus {
+          #mainNav.is-fixed .navbar-nav > li.menu-item > a:hover, #mainNav.is-fixed .navbar-nav > li.menu-item > a:focus {
             color: #0085A1; }
       #mainNav.is-visible {
         /* if the user changes the scrolling direction, we show the header */
